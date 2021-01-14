@@ -1,0 +1,14 @@
+type Query {
+  name: String!
+  age: Int!
+  person: User!
+}
+
+type User {
+  name: String!
+  nickname: String!
+  age: Int!
+  gender: String!
+}
+
+# !: required
