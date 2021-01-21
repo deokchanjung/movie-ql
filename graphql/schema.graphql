@@ -1,14 +1,15 @@
-type Query {
+type Person {
+  id: Int!
   name: String!
-  age: Int!
-  person: User!
-}
-
-type User {
-  name: String!
-  nickname: String!
   age: Int!
   gender: String!
 }
 
+type Query {
+  # people: Person!
+  people: [Person]!
+  person(id: Int!): Person
+}
+
 # !: required
+# [Type]: Array

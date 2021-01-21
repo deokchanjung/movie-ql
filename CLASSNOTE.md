@@ -50,3 +50,9 @@ export default resolvers;
 ```
 
 ## 0.6 Extending the Schema
+
+## 알아볼 것들
+
+- Query
+- Subscription
+- Mutation

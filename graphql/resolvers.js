@@ -1,15 +1,9 @@
-const quackCoder = {
-  username: 'Deokchan Jung',
-  nickname: 'Quack Coder',
-  age: 32,
-  gender: 'male'
-};
+import { people } from './db';
 
 const resolvers = {
   Query: {
-    name: () => 'Quack Coder',
-    age: () => 32,
-    user: () => quackCoder
+    people: () => people,
+    person: () => getById()
   }
 };
 
