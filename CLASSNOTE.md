@@ -51,6 +51,12 @@ export default resolvers;
 
 ## 0.6 Extending the Schema
 
+## 0.9
+
+### Mutation
+
+Mutation은 Database의 상태가 변했을 때 사용
+
 ## 알아볼 것들
 
 - Query
